@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+     <style>
+    #button {
+     background-color: darkgrey;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+    cursor: pointer;
+     -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+}
+</style>
+</head>
+<body>
+<form action='form.py' method="post" >
+    <h1 style="color: aqua">FORM</h1>
+    <p id="demo"></p>
+    <pre>
+        First Name       <input type="text" name="FirstName">
+        <script>var fn=new Data();
+        fn=FirstName.document.getElementById("demo").innerHTML = days[d.getDay()];
+        </script>
+        <br>
+        Last Name        <input type="text" name="LastName">
+          <script>var ln=new Data();
+        ln=LastName.document.getElementById("demo").innerHTML = days[d.getDay()];
+        </script>
+        <br>
+        Email-Id         <input type="email" name="email">
+          <script>var e=new Data();
+           e=email.document.getElementById("demo").innerHTML = days[d.getDay()];
+        </script>
+        <br>
+        Telephone No.    <input type="tel" name="usertel">
+          <script>var t=new Data();
+           t=usertel.document.getElementById("demo").innerHTML = days[d.getDay()];
+        </script>
+        <br>
+        Country<br>
+        <select value="country" name="country">
+        <option value="America">America</option>
+        <option value="Bhutan">Bhutan</option>
+        <option value="Canada">Canada</option>
+        <option value="China">China</option>
+        <option value="Nepal">Nepal</option>
+        <option value="India" selected>India</option>
+        <option value="South Africa">South Africa</option>
+        </select>
+          <script>var co=new Data();
+           co=country.document.getElementById("demo").innerHTML = days[d.getDay()];
+        </script>
+        <br>
+        Current City     <input type="text" name="city">
+          <script>var c=new Data();
+           c=city.document.getElementById("demo").innerHTML = days[d.getDay()];
+        </script>
+        <br>
+        <button id="button" action="">Submit</button>
+
+    </pre>
+</form>
+</body>
+</html>
